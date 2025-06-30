@@ -21,7 +21,10 @@
             "input": "apps/spotify/public"
           }
         ],
-        "styles": ["apps/spotify/src/styles.scss"]
+        "styles": [
+            "node_modules/ng-zorro-antd/ng-zorro-antd.min.css",
+            "apps/spotify/src/styles.scss"
+        ]
       },
       "configurations": {
         "production": {

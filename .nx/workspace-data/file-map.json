@@ -1,17 +1,41 @@
 {
   "version": "6.0",
   "nxVersion": "21.2.1",
-  "pathMappings": {},
+  "pathMappings": {
+    "@spotify/header": [
+      "libs/header/src/index.ts"
+    ]
+  },
   "nxJsonPlugins": [],
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/extensions.json",
-        "hash": "16884713733442577066"
+        "file": ".vscode/settings.json",
+        "hash": "15290639148304873456"
       },
       {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "file": "package.json",
+        "hash": "5728910991711960467"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "16187273263793673205"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "10770449096712831357"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "299488259095677664"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": ".prettierrc",
@@ -22,44 +46,20 @@
         "hash": "13194702717607086212"
       },
       {
-        "file": ".vscode/settings.json",
-        "hash": "15290639148304873456"
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "nx.json",
+        "hash": "3145160188952105476"
       },
       {
-        "file": "eslint.config.mjs",
-        "hash": "10770449096712831357"
+        "file": ".gitignore",
+        "hash": "6606648133081182187"
       },
       {
         "file": "README.md",
         "hash": "6479309929681726892"
-      },
-      {
-        "file": "nx.json",
-        "hash": "5036834170590209128"
-      },
-      {
-        "file": "package.json",
-        "hash": "7112427350177872432"
-      },
-      {
-        "file": "yarn.lock",
-        "hash": "8159486893119779324"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "3009140142791806673"
-      },
-      {
-        "file": ".angular/cache/20.0.4/spotify/vite/deps_temp_a3b8c4dd/package.json",
-        "hash": "8630294688235076505"
       }
     ],
     "projectFileMap": {
@@ -73,7 +73,7 @@
         },
         {
           "file": "apps/spotify/project.json",
-          "hash": "807431346192469461"
+          "hash": "17554211998331248439"
         },
         {
           "file": "apps/spotify/public/favicon.ico",
@@ -89,7 +89,7 @@
         },
         {
           "file": "apps/spotify/src/app/app.html",
-          "hash": "4586182238706184366"
+          "hash": "11793929026063515761"
         },
         {
           "file": "apps/spotify/src/app/app.routes.ts",
@@ -100,11 +100,11 @@
         },
         {
           "file": "apps/spotify/src/app/app.scss",
-          "hash": "3244421341483603138"
+          "hash": "4727013945688595105"
         },
         {
           "file": "apps/spotify/src/app/app.ts",
-          "hash": "14403241696077338168",
+          "hash": "10502106554942381357",
           "deps": [
             "npm:@angular/core",
             "npm:@angular/router",
@@ -112,8 +112,41 @@
           ]
         },
         {
+          "file": "apps/spotify/src/app/layouts/header/header.component.html",
+          "hash": "16986321723315449684"
+        },
+        {
           "file": "apps/spotify/src/index.html",
           "hash": "3304637786421670571"
+        },
+        {
+          "file": "apps/spotify/src/layouts/footer/footer.component.html",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/spotify/src/layouts/footer/footer.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/spotify/src/layouts/footer/footer.component.ts",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/spotify/src/layouts/header/header.component.html",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/spotify/src/layouts/header/header.component.scss",
+          "hash": "3244421341483603138"
+        },
+        {
+          "file": "apps/spotify/src/layouts/header/header.component.ts",
+          "hash": "9601587934238765862",
+          "deps": [
+            "npm:@angular/common",
+            "npm:@angular/core",
+            "npm:ng-zorro-antd"
+          ]
         },
         {
           "file": "apps/spotify/src/main.ts",
@@ -124,7 +157,7 @@
         },
         {
           "file": "apps/spotify/src/styles.scss",
-          "hash": "5195668842064076916"
+          "hash": "16706453666836223155"
         },
         {
           "file": "apps/spotify/tsconfig.app.json",

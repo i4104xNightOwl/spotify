@@ -1,8 +1,8 @@
 {
   "run": {
     "command": "nx serve spotify",
-    "startTime": "2025-06-30T06:37:36.124Z",
-    "endTime": "2025-06-30T06:37:42.300Z",
+    "startTime": "2025-06-30T06:38:22.916Z",
+    "endTime": "2025-06-30T06:57:24.355Z",
     "inner": false
   },
   "tasks": []
