@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcome } from './nx-welcome';
+import { NzLayoutModule } from 'ng-zorro-antd/layout';
 
 @Component({
-  imports: [NxWelcome, RouterModule],
+  imports: [RouterModule, NzLayoutModule],
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.scss',

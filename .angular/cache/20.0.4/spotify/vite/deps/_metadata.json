@@ -1,0 +1,52 @@
+{
+  "hash": "42931e08",
+  "configHash": "ea000f89",
+  "lockfileHash": "83b2f71d",
+  "browserHash": "600541af",
+  "optimized": {
+    "@angular/core": {
+      "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
+      "file": "@angular_core.js",
+      "fileHash": "6d963e6a",
+      "needsInterop": false
+    },
+    "@angular/platform-browser": {
+      "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
+      "file": "@angular_platform-browser.js",
+      "fileHash": "8bd7417f",
+      "needsInterop": false
+    },
+    "@angular/router": {
+      "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
+      "file": "@angular_router.js",
+      "fileHash": "26a0606e",
+      "needsInterop": false
+    },
+    "ng-zorro-antd/layout": {
+      "src": "../../../../../../node_modules/ng-zorro-antd/fesm2022/ng-zorro-antd-layout.mjs",
+      "file": "ng-zorro-antd_layout.js",
+      "fileHash": "db1f7c06",
+      "needsInterop": false
+    },
+    "zone.js": {
+      "src": "../../../../../../node_modules/zone.js/fesm2015/zone.js",
+      "file": "zone__js.js",
+      "fileHash": "ae6cbb22",
+      "needsInterop": true
+    }
+  },
+  "chunks": {
+    "chunk-4GCS352F": {
+      "file": "chunk-4GCS352F.js"
+    },
+    "chunk-TAUQ47AT": {
+      "file": "chunk-TAUQ47AT.js"
+    },
+    "chunk-JWKNVCJY": {
+      "file": "chunk-JWKNVCJY.js"
+    },
+    "chunk-WDMUDEB6": {
+      "file": "chunk-WDMUDEB6.js"
+    }
+  }
+}

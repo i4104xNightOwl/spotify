@@ -6,12 +6,8 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "17559216753634855455"
+        "file": ".vscode/extensions.json",
+        "hash": "16884713733442577066"
       },
       {
         "file": ".prettierignore",
@@ -22,32 +18,48 @@
         "hash": "16267754514737964994"
       },
       {
-        "file": ".vscode/extensions.json",
-        "hash": "16884713733442577066"
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
       },
       {
-        "file": "README.md",
-        "hash": "6479309929681726892"
+        "file": ".vscode/settings.json",
+        "hash": "15290639148304873456"
+      },
+      {
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": "eslint.config.mjs",
         "hash": "10770449096712831357"
       },
       {
+        "file": "README.md",
+        "hash": "6479309929681726892"
+      },
+      {
         "file": "nx.json",
         "hash": "5036834170590209128"
       },
       {
-        "file": "package-lock.json",
-        "hash": "3216124410746636288"
+        "file": "package.json",
+        "hash": "7112427350177872432"
       },
       {
-        "file": "package.json",
-        "hash": "3680949080501661616"
+        "file": "yarn.lock",
+        "hash": "8159486893119779324"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "16936441711144470533"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "3009140142791806673"
+      },
+      {
+        "file": ".angular/cache/20.0.4/spotify/vite/deps_temp_a3b8c4dd/package.json",
+        "hash": "8630294688235076505"
       }
     ],
     "projectFileMap": {
@@ -77,7 +89,7 @@
         },
         {
           "file": "apps/spotify/src/app/app.html",
-          "hash": "11987652264972370457"
+          "hash": "4586182238706184366"
         },
         {
           "file": "apps/spotify/src/app/app.routes.ts",
@@ -92,18 +104,11 @@
         },
         {
           "file": "apps/spotify/src/app/app.ts",
-          "hash": "13386312238149092608",
+          "hash": "14403241696077338168",
           "deps": [
             "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/spotify/src/app/nx-welcome.ts",
-          "hash": "10313668604149354744",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
+            "npm:@angular/router",
+            "npm:ng-zorro-antd"
           ]
         },
         {
