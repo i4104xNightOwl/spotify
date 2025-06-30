@@ -1,0 +1,78 @@
+.footer {
+    height: 90px;
+    padding: 5px 0px;
+}
+
+.isPlaying {
+    inline-size: 250px;
+
+    img {
+        width: 80px;
+        height: 60px;
+        border-radius: 15px;
+    }
+
+    .title {
+        color: white;
+        text-align: left;
+    }
+
+    .sub-title {
+        color: white;
+        font-weight: 400;
+    }
+
+}
+
+.controller {
+    inline-size: 100%;
+
+    .control {
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 100%;
+            padding: 5px;
+        }
+
+        .pause {
+            background-color: white;
+            padding: 8px;
+            border-radius: 100%;
+            border: none;
+            box-shadow: none;
+        }
+    }
+
+    .progress {
+        width: 50%;
+
+        .bar {
+            width: 80%;
+            height: 5px;
+            border-radius: 20px;
+            background-color: white;
+        }
+
+        .timer {
+            color: white;
+        }
+    }
+}
+
+.volumn {
+    inline-size: 250px;
+
+    img {
+        width: 25px;
+        height: 25px;
+        border-radius: 100%;
+    }
+
+    .percent {
+        width: 80px;
+        height: 5px;
+        border-radius: 20px;
+        background-color: white;
+    }
+}
