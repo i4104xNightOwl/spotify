@@ -10,56 +10,56 @@
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".vscode/extensions.json",
-        "hash": "4637156562308165301"
-      },
-      {
-        "file": "README.md",
-        "hash": "6479309929681726892"
-      },
-      {
-        "file": ".gitignore",
-        "hash": "8369213149582290386"
-      },
-      {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "299488259095677664"
-      },
-      {
-        "file": ".vscode/settings.json",
-        "hash": "15290639148304873456"
+        "file": ".prettierrc",
+        "hash": "16267754514737964994"
       },
       {
         "file": "nx.json",
         "hash": "3145160188952105476"
       },
       {
-        "file": "yarn.lock",
-        "hash": "16187273263793673205"
+        "file": ".gitignore",
+        "hash": "8369213149582290386"
       },
       {
-        "file": "package.json",
-        "hash": "5728910991711960467"
-      },
-      {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
-      },
-      {
-        "file": ".gitattributes",
-        "hash": "13194702717607086212"
+        "file": ".editorconfig",
+        "hash": "5443105041930014821"
       },
       {
         "file": "eslint.config.mjs",
         "hash": "10770449096712831357"
       },
       {
-        "file": ".editorconfig",
-        "hash": "5443105041930014821"
+        "file": "tsconfig.base.json",
+        "hash": "299488259095677664"
+      },
+      {
+        "file": "package.json",
+        "hash": "5728910991711960467"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
+        "file": ".vscode/settings.json",
+        "hash": "15290639148304873456"
+      },
+      {
+        "file": "README.md",
+        "hash": "6479309929681726892"
+      },
+      {
+        "file": ".vscode/extensions.json",
+        "hash": "4637156562308165301"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "13194702717607086212"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "16187273263793673205"
       }
     ],
     "projectFileMap": {
@@ -121,7 +121,7 @@
         },
         {
           "file": "apps/spotify/src/app/app.html",
-          "hash": "953954693222591453"
+          "hash": "12173863117286472747"
         },
         {
           "file": "apps/spotify/src/app/app.routes.ts",
@@ -132,7 +132,7 @@
         },
         {
           "file": "apps/spotify/src/app/app.scss",
-          "hash": "3073438789328196851"
+          "hash": "13110948394186688346"
         },
         {
           "file": "apps/spotify/src/app/app.ts",
