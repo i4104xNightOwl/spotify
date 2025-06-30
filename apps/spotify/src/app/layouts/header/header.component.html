@@ -1,1 +1,15 @@
-header worked
+<div nz-flex [nzAlign]="'center'" [nzJustify]="'center'">
+    <div class="flex-item logo">
+        <img src="/favicon.ico" alt="" />
+    </div>
+    <div nz-flex [nzGap]="10" [nzAlign]="'center'" [nzJustify]="'center'" class="flex-item search">
+        <img src="/icons/home.png" alt="" />
+        <div class="search-input">
+            <input name="search" type="text" placeholder="What do you want to play?" />
+        </div>
+    </div>
+    <div nz-flex [nzGap]="10" [nzAlign]="'center'" [nzJustify]="'center'" class="flex-item user">
+        <button class="signup">Signup</button>
+        <button class="login">Login</button>
+    </div>
+</div>

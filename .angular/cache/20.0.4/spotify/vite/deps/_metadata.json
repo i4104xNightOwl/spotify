@@ -1,58 +1,64 @@
 {
-  "hash": "0d711682",
-  "configHash": "a9f27643",
+  "hash": "b45abddc",
+  "configHash": "7c1d2650",
   "lockfileHash": "b54df68d",
-  "browserHash": "187c3f8c",
+  "browserHash": "75f881bc",
   "optimized": {
     "@angular/common": {
       "src": "../../../../../../node_modules/@angular/common/fesm2022/common.mjs",
       "file": "@angular_common.js",
-      "fileHash": "7d4f9dc1",
+      "fileHash": "21b82e3f",
       "needsInterop": false
     },
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "51a7075a",
+      "fileHash": "f271484c",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "b8babb8f",
+      "fileHash": "a5322b9d",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "0a3d2716",
+      "fileHash": "ae5bedde",
       "needsInterop": false
     },
     "ng-zorro-antd/icon": {
       "src": "../../../../../../node_modules/ng-zorro-antd/fesm2022/ng-zorro-antd-icon.mjs",
       "file": "ng-zorro-antd_icon.js",
-      "fileHash": "c5924f2d",
+      "fileHash": "8b75d598",
       "needsInterop": false
     },
     "ng-zorro-antd/layout": {
       "src": "../../../../../../node_modules/ng-zorro-antd/fesm2022/ng-zorro-antd-layout.mjs",
       "file": "ng-zorro-antd_layout.js",
-      "fileHash": "ac94ca32",
+      "fileHash": "e28f76a8",
       "needsInterop": false
     },
     "zone.js": {
       "src": "../../../../../../node_modules/zone.js/fesm2015/zone.js",
       "file": "zone__js.js",
-      "fileHash": "22d9e564",
+      "fileHash": "e2b44a25",
       "needsInterop": true
+    },
+    "ng-zorro-antd/flex": {
+      "src": "../../../../../../node_modules/ng-zorro-antd/fesm2022/ng-zorro-antd-flex.mjs",
+      "file": "ng-zorro-antd_flex.js",
+      "fileHash": "4cd63413",
+      "needsInterop": false
     }
   },
   "chunks": {
     "chunk-ZXTZDH3E": {
       "file": "chunk-ZXTZDH3E.js"
     },
-    "chunk-2OJWT7U5": {
-      "file": "chunk-2OJWT7U5.js"
+    "chunk-4HKKEO2F": {
+      "file": "chunk-4HKKEO2F.js"
     },
     "chunk-VVSYL4NM": {
       "file": "chunk-VVSYL4NM.js"

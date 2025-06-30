@@ -1,0 +1,62 @@
+.logo {
+    inline-size: 75px;
+
+    img {
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        border: 1px solid white;
+    }
+}
+
+.search {
+    inline-size: 100%;
+    color: white;
+
+    img {
+        height: 35px;
+        width: 35px;
+        background-color: #3f3f3f;
+        padding: 5px;
+        border-radius: 100%;
+    }
+
+    .search-input {
+        input {
+            border: none;
+            background-color: #3f3f3f;
+            color: white;
+            box-shadow: none;
+            height: 30px;
+            padding: 20px 45px;
+            border-radius: 20px;
+            text-align: center;
+        }
+    }
+}
+
+.user {
+    inline-size: auto;
+
+    button {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        padding: 0px 40px;
+        margin: 0;
+        border: none;
+        border-radius: 20px;
+        box-shadow: none;
+        cursor: pointer;
+    }
+
+    .signup {
+        background-color: transparent;
+    }
+
+    .login {
+        color: black;
+        background-color: white;
+    }
+
+}
